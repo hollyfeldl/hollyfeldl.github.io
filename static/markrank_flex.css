@@ -56,7 +56,7 @@ a:hover, a:active {
   border-radius: 3px;
   border: 3px solid #303029;
   opacity: 0.9;
-  max-width: 500px; }
+  max-width: 250px; }
 
 .tiles {
   -webkit-box-align: stretch;
@@ -81,10 +81,10 @@ a:hover, a:active {
   -webkit-box-direction: normal;
   -moz-box-direction: normal;
   box-direction: normal;
-  -webkit-flex-direction: row;
-  -moz-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-direction: row;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-direction: column;
   -webkit-box-lines: multiple;
   -moz-box-lines: multiple;
   box-lines: multiple;
@@ -101,7 +101,7 @@ a:hover, a:active {
   -o-justify-content: space-between;
   justify-content: space-between;
   -ms-flex-pack: justify;
-  max-width: 500px; }
+  max-width: 250px; }
 
 .tiles .tile {
   -webkit-box-flex: 1;
